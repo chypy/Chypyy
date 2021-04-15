@@ -1,0 +1,442 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+.Header {
+    background: black;
+    width: 100%;
+    height: 80px;
+    display:block;
+    position: fixed;
+    z-index: 1;
+} 
+
+
+.inner_Header {
+    width: 700px;
+    height: 100%;
+    display:block;
+    margin: 0 auto;
+   
+}
+
+
+
+.logo_kanta {
+    
+    
+    height: 100%;
+    display: table;
+    float:left;
+    
+}
+
+
+.logo_kanta h1 {
+    
+    display:table-cell;
+    vertical-align: middle;
+    color:white;
+    height:100%;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 100;
+    
+}
+
+.logo_kanta span {
+    
+    font-weight: 900;
+    
+
+    
+}
+
+
+
+.nav {
+    
+    float: right;
+    height: 100%;
+    
+}
+
+
+.nav a {
+    
+    display: table;
+    height: 100%;
+    float: left;
+    padding: 0px 20px;
+      
+}
+
+.nav a:last-child {
+
+    padding-right: 0; 
+}
+.nav a li {
+    
+    display:table-cell;
+    color:white;
+    font-family: 'Montserrat';
+    font-size:16px;
+    height:100%;
+    vertical-align: middle;
+}
+
+.nav a li:hover {
+    
+    transition: 0.5s;
+    background-color: rgb(55, 53, 52);
+    border:solid rgb:(48, 45, 44) 1px;
+}
+
+
+
+.d1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 252, 226);
+}
+.onama{
+    width:100%;
+    height:620px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.onama{
+    margin-top: 5px;
+}
+   
+
+.onama .ps2 img{
+    width:25%;
+    height:25%;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.d2 h1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'arial';
+    
+}
+.d2 h2{
+    text-align: center;
+    font-size: 40px;
+   letter-spacing: 7px;
+    font-family: 'arial';
+   
+    
+    
+}
+
+.d2 p{
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    
+    
+}
+
+
+.d2{
+    width:100%;
+   
+}
+
+.kont{
+    width: 100%;
+    height: 100%;
+    background: #42455a;
+   
+}
+
+.n1{
+    width: 100%;
+    height: 800px;
+    
+}
+
+.n2{
+    width: 100%;
+
+    height: 800px;
+}
+.n1 h3{
+    margin-left: 200px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 100px;
+    width: 1200px;
+}
+.n1 h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 5px;
+    
+}
+.n1 h5{
+    font-size: 30px;
+    
+    text-align: center;
+    
+    color: #0094fe;
+}
+.n1 button{
+    background-color:rgba(74, 73, 73, 0.555);
+    width: 120px;
+    height: 60px;
+    font-family:monospace;
+    font-size: 200%;
+    color:black;
+    border:solid rgba(1, 1, 1, 0) 1px;
+    margin-left: 740px;
+    margin-top: 65px;
+    border-radius: 10%
+}
+.n1 button:hover{
+    transition: 0.3s;
+    background-color:#0094fe;
+}
+
+
+
+
+.n2 h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 5px;
+   
+
+} 
+
+
+
+
+
+
+.n2 h3{
+    margin-left: 200px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 90px;
+    width: 1200px;
+}
+
+
+.n2 button{
+    background-color:rgba(74, 73, 73, 0.555);
+    width: 220px;
+    height: 100px;
+    font-family:monospace;
+    font-size: 200%;
+    color:black;
+    border:solid rgba(1, 1, 1, 0) 1px;
+    margin-left: 690px;
+    margin-top: 205px;
+      border-radius: 10%
+}
+.n2 button:hover{
+    transition: 0.3s;
+    background-color:#0094fe;
+}
+
+.boja{
+    height: 320px;
+    
+}
+
+.boja1{
+    height: 130px;
+    
+}
+
+
+
+
+.onama .d2 p{
+    width: 1100px;
+    text-align: center;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+
+#vucispida1{
+    background-color:rgba(1, 1, 1,0.8);
+    text-align: center;
+    padding:30px;
+    margin-top: -50px;
+    
+    
+}
+#vucispida1 p{
+    color:white;
+    font-size:180%;
+    font-family:'Arial';
+    
+}
+
+
+
+#vucispida{
+    background-color:rgba(1, 1, 1,0.8);
+    text-align: center;
+    padding:30px;
+    margin-top: -250px;
+    
+}
+#vucispida p{
+    color:white;
+    font-size:180%;
+    font-family: 'Arial';
+}
+
+
+.border {
+    
+    border-left: 15px ridge ;
+    border-top: 15px ridge ;
+    border-bottom: 15px ridge ;
+    border-right: 15px ridge ;
+   width: 90%;
+    height: 620px;
+    margin-left: 60px;
+    background: white;
+}
+
+
+.jebiga i {
+    
+    display:list-item;
+    margin:30px;
+    font-size: 30px;
+    padding: 22px;
+   
+}
+
+.jebiga {
+    
+    margin-top:-60px;
+
+    
+    }
+    
+.drzac {
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+.bekground {
+    
+    background-image: url(slike/bg.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Footer {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 20px 0;
+    box-sizing: border-box;
+    background: black;
+}
+.inner_footer {
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+.inner_footer .logo_gas {
+    width: 35%;
+    float:left;
+    display:block;
+    height: 100%;
+}
+.inner_footer .logo_gas img {
+    width: 65%;
+    height: 200px;
+    margin-left: -150px;
+}
+.inner_footer .futer1{
+    width:calc(21.6666666667% - 20px);
+    margin-right:10px;
+    float: left;
+    height: 100%;
+}
+.inner_footer .futer1:last-child{
+    margin-right:0;
+}
+.inner_footer .futer1 h1{
+    font-family:monospace;
+    font-size: 200%;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.inner_footer .futer1 a{
+    text-decoration: none;
+  font-family:'arial';
+    font-size: 18px;
+    color: white;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 5px;
+    -webkit-transition: 0.4s !important;
+}
+.inner_footer .futer1 a:hover{
+    color:#0094fe;
+    -webkit-transition: 0.4s !important;
+}
+.inner_footer .futer1 li{
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+}
+.inner_footer .futer1 span{
+    color: white;
+    font-family: 'arial';
+    font-size: 16px;
+    font-weight: 200;
+    display: block;
+    width: 100%;
+    padding-top: 20px;
