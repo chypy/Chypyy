@@ -331,7 +331,7 @@ h5 {
 
 
 .zvonko {
-    background-image: url(slike/123.jpg);
+    background-image: url(123.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -514,7 +514,7 @@ h5 {
     font-family: monospace;
 }
 .vk{
-background-image: url(slike/vizitka_11.jpg);
+background-image: url(vizitka_11.jpg);
 width: 70%;
 height: 650px;
 margin-left: 250px;
@@ -523,7 +523,7 @@ box-shadow: 12px 12px 5px 5px rgba(0, 0, 255, .2),
              0 0  0 2px rgb(255,255,255);
 }
 .vk1{
-background-image: url(slike/vizitkazadnja2.jpg);
+background-image: url(vizitkazadnja2.jpg);
 width: 70%;
 height: 650px;
 margin-left: 250px;
